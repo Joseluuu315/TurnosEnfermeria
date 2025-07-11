@@ -4,3 +4,99 @@ body {
 .bg-pink {
   background-color: #ff69b4;
 }
+
+/* Paleta base */
+:root {
+  --pink: #e91e63;
+  --pink-dark: #c2185b;
+  --pink-light: #f8bbd0;
+  --white: #ffffff;
+  --gray: #f5f5f5;
+}
+
+/* Fondo rosa para header */
+.bg-pink {
+  background-color: var(--pink);
+}
+
+/* Botones rosas */
+.btn-pink {
+  background-color: var(--pink);
+  border: none;
+  color: var(--white);
+}
+
+.btn-pink:hover {
+  background-color: var(--pink-dark);
+  color: var(--white);
+}
+
+.btn-outline-pink {
+  border: 2px solid var(--pink);
+  color: var(--pink);
+  background: transparent;
+}
+
+.btn-outline-pink:hover {
+  background: var(--pink);
+  color: var(--white);
+}
+
+/* FullCalendar personalizado */
+.fc {
+  background-color: var(--white);
+  border-radius: 0.75rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  padding: 1rem;
+}
+
+.fc-toolbar-title {
+  color: var(--pink);
+}
+
+.fc-button {
+  background: var(--pink);
+  border: none;
+  color: var(--white);
+  text-transform: capitalize;
+}
+
+.fc-button:hover {
+  background: var(--pink-dark);
+}
+
+.fc-today-button {
+  background: var(--pink);
+}
+
+.fc-event {
+  background: var(--pink-dark);
+  border: none;
+  color: var(--white);
+}
+
+.fc-daygrid-day-number {
+  color: var(--pink);
+  font-weight: bold;
+}
+
+/* Tarjetas y contenedor */
+.card {
+  background: var(--white);
+  border: none;
+}
+
+#stats {
+  background: var(--pink-light);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+/* Otros */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  font-weight: bold;
+}
