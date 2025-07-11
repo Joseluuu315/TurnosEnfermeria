@@ -72,7 +72,7 @@ while ($row = $res->fetch_assoc()) {
 $html .= "
 </table>
 <div class='footer'>
-  Generado por el sistema | " . date('d/m/Y H:i') . "
+  Creador Jose Luis Fuentes Parra | " . date('d/m/Y H:i') . "
 </div>
 </body>
 </html>
@@ -84,4 +84,4 @@ $dompdf->setPaper('A4', 'portrait');
 $dompdf->render();
 
 ob_end_clean();
-$dompdf->stream("informe_turnos.pdf");
+$dompdf->stream("Informe_Turnos_Enfermeria.pdf");
