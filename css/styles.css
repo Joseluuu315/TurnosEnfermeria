@@ -100,3 +100,29 @@ body {
 h3 {
   font-weight: bold;
 }
+
+/* Asegúrate de tener estos estilos ya definidos */
+.bg-pink {
+  background-color: #e91e63;
+}
+
+.btn-pink {
+  background-color: #e91e63;
+  color: #fff;
+  border: none;
+}
+
+.btn-pink:hover {
+  background-color: #c2185b;
+}
+
+.btn-outline-pink {
+  border: 2px solid #e91e63;
+  color: #e91e63;
+  background: transparent;
+}
+
+.btn-outline-pink:hover {
+  background-color: #e91e63;
+  color: #fff;
+}
