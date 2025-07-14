@@ -3,5 +3,5 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
   const formData = new FormData(this);
   const res = await fetch('php/login.php', { method: 'POST', body: formData });
   if (res.ok) window.location.href = 'dashboard.html';
-  else alert("Login incorrecto");
+  else alert("Login incorrecto" + res);
 });

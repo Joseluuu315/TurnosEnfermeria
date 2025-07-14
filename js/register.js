@@ -3,5 +3,5 @@ document.getElementById("registerForm").addEventListener("submit", async functio
   const formData = new FormData(this);
   const res = await fetch('php/register.php', { method: 'POST', body: formData });
   if (res.ok) window.location.href = 'index.html';
-  else alert("Error al registrar");
+  else alert("Error al registrar" + res);
 });

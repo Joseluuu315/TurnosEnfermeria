@@ -1,6 +1,3 @@
-console.log("✅ Cargando dashboard.js nuevo");
-
-
 document.addEventListener('DOMContentLoaded', function() {
   var calendarEl = document.getElementById('calendar');
   var selectedDate = null;
@@ -68,6 +65,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // 👉 Botón Logout
   document.getElementById("logoutBtn").onclick = () => {
-    fetch('php/logout.php').then(() => window.location.href = '../index.html');
+    fetch('php/logout.php').then(() => window.location.href = '../register.html');
   };
 });
